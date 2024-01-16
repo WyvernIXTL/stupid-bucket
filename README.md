@@ -26,3 +26,4 @@ scoop bucket add stupid-bucket https://github.com/WyvernIXTL/stupid-bucket
 Guide](https://github.com/ScoopInstaller/.github/blob/main/.github/CONTRIBUTING.md)
 and [App Manifests](https://github.com/ScoopInstaller/Scoop/wiki/App-Manifests)
 wiki page.~~
+
