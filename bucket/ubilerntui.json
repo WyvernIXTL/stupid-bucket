@@ -22,22 +22,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/WyvernIXTL/ubilerntui/releases/download/v$version/ubilerntui-v$version-x86_64-pc-windows-msvc.zip",
-                "hash": {
-                    "url": "$urlNoExt.sha256"
-                }
+                "url": "https://github.com/WyvernIXTL/ubilerntui/releases/download/v$version/ubilerntui-x86_64-pc-windows-msvc.7z"
             },
             "32bit": {
-                "url": "https://github.com/WyvernIXTL/ubilerntui/releases/download/v$version/ubilerntui-v$version-i686-pc-windows-msvc.zip",
-                "hash": {
-                    "url": "$urlNoExt.sha256"
-                }
+                "url": "https://github.com/WyvernIXTL/ubilerntui/releases/download/v$version/ubilerntui-i686-pc-windows-msvc.7z"
             },
             "arm64": {
-                "url": "https://github.com/WyvernIXTL/ubilerntui/releases/download/v$version/ubilerntui-v$version-aarch64-pc-windows-msvc.zip",
-                "hash": {
-                    "url": "$urlNoExt.sha256"
-                }
+                "url": "https://github.com/WyvernIXTL/ubilerntui/releases/download/v$version/ubilerntui-aarch64-pc-windows-msvc.7z"
             }
         }
     }
