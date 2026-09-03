@@ -1,0 +1,31 @@
+{
+    "version": "1.9.0",
+    "description": "Gamepad Polling Rate and Latency Testing Tool (CLI & GUI)",
+    "homepage": "https://github.com/WyvernIXTL/gamepadla-plus",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/WyvernIXTL/gamepadla-plus/releases/download/v1.9.0/gamepadla-plus-v1.9.0-windows-x64-portable.7z",
+            "hash": "86fb344b51f0890187e4ea90886e667e7381c0bfb969a07e3a4db461c2093c8d"
+        },
+        "arm64": {
+            "url": "https://github.com/WyvernIXTL/gamepadla-plus/releases/download/v1.9.0/gamepadla-plus-v1.9.0-windows-arm64-portable.7z",
+            "hash": "bc7c255e667c9c775ed7c5d21a0db34cb08d6d16436649496e80a4117d6cd830"
+        }
+    },
+    "bin": "Gamepadla+.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/WyvernIXTL/gamepadla-plus/releases/download/v$version/gamepadla-plus-v$version-windows-x64-portable.7z"
+            },
+            "arm64": {
+                "url": "https://github.com/WyvernIXTL/gamepadla-plus/releases/download/v$version/gamepadla-plus-v$version-windows-arm64-portable.7z"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/SHA512SUMS"
+        }
+    }
+}
